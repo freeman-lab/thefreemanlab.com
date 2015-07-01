@@ -1,4 +1,3 @@
+# homepage
 
-# Blog
-
-The default [wintersmith](https://github.com/jnordberg/wintersmith) template
+built using wintersmith, designed by freeman

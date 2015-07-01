@@ -1,22 +1,28 @@
 
 extends layout
 
-block append vars
-  - bodyclass = 'article-detail'
-
-block prepend title
-  | #{ page.title + " - "}
-
-block header
-  include author
-  h1= page.title
-  p.author
-    | #{ "Written by " }
-    mixin author(page.metadata.author)
-
 block content
-  article.article
-    section.content!= typogr(page.html).typogrify()
+
+  .row
+    .column-10
+
+      include author
+
+      span
+        a(href='/blog/').nav-home &lsaquo;&lsaquo;&nbsp; blog
+
+      p.article-date= moment.utc(page.date).format('MMMM DD, YYYY')
+
+      h1.article-title= page.title
+      
+      p.article-author
+        | #{ "by " }
+        mixin author(page.metadata.author)
+      
+      article.article
+        section.content!= typogr(page.html).typogrify()
+
+
 
 block prepend footer
   div.nav

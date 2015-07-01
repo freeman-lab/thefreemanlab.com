@@ -1,4 +1,22 @@
 extends layout
 
+block home
+	a(href='/').nav-home &lsaquo;&lsaquo;&nbsp; home
+
+block nav
+	div.nav-group
+		a(href='/about/').nav.nav-about.nav-about-selected about
+		span.divider /  
+		a(href='/team/').nav.nav-team team
+		span.divider /
+		a(href='/work/').nav.nav-work work
+		span.divider /
+		a(href='/blog/').nav.nav-blog blog
+
+block label
+	h1.sub-header about us
+
 block content
-  p about info
+	.row
+		.column-7.suffix-5.blurb
+			p This is about us this is about us

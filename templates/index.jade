@@ -1,15 +1,20 @@
 extends layout
 
-block label
-  p the freeman lab
+
+block home
+	a(href='/', style='opacity:0.0; pointer-events: none').nav-home &lsaquo;&lsaquo;&nbsp; home
+
+block nav
+	div.nav-group
+		a(href='/about/').nav.nav-about about
+		span.divider /  
+		a(href='/team/').nav.nav-team team
+		span.divider /
+		a(href='/work/').nav.nav-work work
+		span.divider /
+		a(href='/blog/').nav.nav-blog blog
 
 block content
-  p sweet graphic
-  p test
-  p test2
-  div
-  - console.log(contents.index.url)
-  div
-
-
+	.column-4.hero the freeman lab
+		span.blinking-cursor |
 
