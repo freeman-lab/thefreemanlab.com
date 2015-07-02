@@ -1,0 +1,8 @@
+{
+  "name": "Neurofinder",
+  "github": "http://github.com/codeneuro/neurofinder",
+  "url": "http://codeneuro.org/neurofinder",
+  "description": "Interactive notebooks for interactively exploring data and analyses.",
+  "category": "open",
+  "id": "neurofinder"
+}

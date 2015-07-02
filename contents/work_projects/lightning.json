@@ -1,0 +1,8 @@
+{
+  "name": "Lightning",
+  "github": "http://github.com/lightning-viz",
+  "url": "http://lightning-viz.org",
+  "description": "Data visualization server.",
+  "category": "code",
+  "id": "lightning"
+}

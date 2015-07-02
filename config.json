@@ -8,6 +8,7 @@
   "plugins": [
     "./plugins/test.coffee"
   ],
+  "ignore": ["**/.DS_Store"],
   "require": {
     "moment": "moment",
     "_": "underscore",

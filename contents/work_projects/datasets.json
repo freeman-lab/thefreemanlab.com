@@ -1,0 +1,8 @@
+{
+  "name": "Datasets",
+  "github": "http://github.com/codeneuro/datasets",
+  "url": "http://datasets.codeneuro.org",
+  "description": "Public data sets.",
+  "category": "open",
+  "id": "datasets"
+}

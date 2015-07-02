@@ -1,0 +1,8 @@
+{
+  "name": "Thunder",
+  "github": "http://github.com/thunder-project/thunder",
+  "url": "http://thunder-project.org",
+  "description": "Large-scale image and time series analysis in Spark.",
+  "category": "code",
+  "id": "thunder"
+}

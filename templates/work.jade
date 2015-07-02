@@ -16,6 +16,37 @@ block nav
 block label
 	h1.sub-header what we do
 
+	- var photos = contents.work_photos
+
+	- var categories = ['code', 'science', 'open']
+	each cat in categories
+
+		if cat == 'science'
+			p
+				| Scientific investigation
+
+		if cat == 'code'
+			p
+				| Coding efforts
+
+		if cat == 'open'
+			p
+				| Open science
+
+		hr
+
+		- var projects = _.filter(contents.work_projects, function(d) {return d.metadata.category == cat})	
+
+		each project in projects
+
+			- var image = _.find(photos, function(d) {return d.filepath.full.indexOf(project.metadata.id) > -1})
+
+			p= project.metadata.name
+
+			if image
+				p= image.filepath.full
+
+
 block content
 	.row
 		.column-7.suffix-5.blurb

@@ -16,6 +16,22 @@ block nav
 block label
 	h1.sub-header meet the team
 
+	- var members = contents.team_members
+	- var photos = contents.team.photos
+
+	div
+		- console.log(photos)
+	div
+
+	each person in members	
+
+		- var image = _.find(photos, function(d) {return d.filepath.full.indexOf(person.metadata.id) > -1})
+		
+		p= person.metadata.name
+
+		if image
+			img(src='/' + image.filepath.relative).team-photo
+
 block content
 	.row
 		.column-7.suffix-5.blurb

@@ -1,0 +1,8 @@
+{
+  "name": "Notebooks",
+  "github": "http://github.com/lightning-viz",
+  "url": "http://notebooks.codeneuro.org",
+  "description": "Interactive notebooks for interactively exploring data and analyses.",
+  "category": "open",
+  "id": "notebooks"
+}

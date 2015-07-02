@@ -11,7 +11,7 @@
   src: url("fonts/CooperHewitt-LightItalic.woff");}
 
 
-h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
+h1, h2, h3, h4, h5, h6, p, body, a, ul, ol, blockquote, pre {
   margin: 0; padding: 0; border: 0;
 }
 
@@ -68,7 +68,7 @@ a:hover {
 }
 
 .nav-about, .nav-team, .nav-work, .nav-blog {
-  border-bottom: 3px solid rgb(244,244,245);;
+  border-bottom: 3px solid rgb(244,244,245);
 }
 
 .nav-about:hover {
@@ -276,6 +276,14 @@ hr {
   margin: 1.6em 0;
 }
 
+.team-photo {
+  width: 200px;
+  height: 200px;
+  border: solid 6px rgb(126, 173, 220);
+  border-radius: 150px;
+}
+
+
 /* page header */
 
 .header .author {
@@ -321,14 +329,14 @@ body.article-detail > header {
 .round {
   -moz-border-radius: 100px;
   border-radius: 100px;
-  border: 1px solid rgb(230,230,230);
-  color: rgb(230,230,230);
+  border: 1px solid rgb(215,215,215);
+  color: rgb(215,215,215);
   text-align: center;
   width: 40px;
   height: 40px;
   margin-right: 20px;
   display: inline-block;
-  background-color: rgb(230,230,230);
+  background-color: rgb(215,215,215);
 }
 
 .round-inside {
@@ -341,7 +349,6 @@ body.article-detail > header {
 
 .round:hover {
   cursor: pointer;
-  background-color: rgb(230,230,230);
   color: rgb(244,244,245);
 }
 
