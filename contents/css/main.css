@@ -185,6 +185,25 @@ a:hover {
   -o-user-select:none;
 }
 
+.about-lead {
+  font-family: 'Roboto slab';
+  position: relative;
+  font-weight: 200;
+  font-size: 28px;
+}
+
+.about-intro {
+  font-family: 'Roboto slab';
+  position: relative;
+  font-weight: 200;
+  font-size: 22px;
+}
+
+.about-callout {
+  color: rgb(125, 211, 130);
+  font-weight: 400;
+}
+
 .team-member {
   display: inline-table;
   margin-top: 30px;
@@ -665,36 +684,22 @@ code.lang-markdown .bullet {
 }
 
 @media (max-width: 690px) {
-  .content-wrap {
-    width: auto;
-    padding: 0 1em;
+
+  .nav-group {
+    text-align: left;
+    font-size: 22px;
+    margin-bottom: 20px;
   }
-  .header {
-    margin: 1em 0;
+
+  .team-member {
+    display: inline;
   }
-  .header h1 {
-    font-size: 1.4em;
-    margin-bottom: 0.6em;
+
+  .hero {
+    font-size: 88px;
+    margin-bottom: 100px;
   }
-  .header .description {
-    font-size: 1em;
-  }
-  .article {
-    margin: 1em 0 2.5em;
-  }
-  .archive {
-    width: 80%;
-    margin: 0 auto;
-  }
-  .archive * {
-    float: none !important;
-    line-height: 1.6 !important;
-    width: auto !important;
-    height: auto !important;
-    text-align: left !important;
-    border: 0 !important;
-    margin: 0 !important;
-  }
+
   footer .nav {
     margin: 1em 0;
   }
