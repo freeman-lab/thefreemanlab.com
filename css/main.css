@@ -1,0 +1,719 @@
+@font-face {
+  font-family: "CooperHewitt-Medium";
+  src: url("fonts/CooperHewitt-Medium.woff");}
+
+@font-face {
+  font-family: "CooperHewitt-Light";
+  src: url("fonts/CooperHewitt-Light.woff");}
+
+@font-face {
+  font-family: "CooperHewitt-LightItalic";
+  src: url("fonts/CooperHewitt-LightItalic.woff");}
+
+
+h1, h2, h3, h4, h5, h6, p, body, a, ul, ol, blockquote, pre {
+  margin: 0; padding: 0; border: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(140,140,140);
+  -webkit-transition:all 0.25s ease; 
+  -moz-transition:all 0.25s ease; 
+  -o-transition:all 0.25s ease; 
+  transition:all 0.25s ease;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(100,100,100);
+}
+
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+#header {
+  padding-top: 28px;
+}
+
+#content {
+  padding-bottom: 100px;
+}
+
+.nav {
+  color: black;
+}
+
+.nav:visited {
+  color: black;
+}
+
+.nav-group {
+  margin-top: 20px;
+  font-family: 'Roboto slab';
+  font-weight: 200;
+  font-size: 26px;
+  text-align: right;
+  color: black;
+}
+
+.nav {
+  padding-bottom: 5px;
+  -webkit-transition:border-bottom 0.25s ease; 
+  -moz-transition:border-bottom 0.25s ease; 
+  -o-transition:border-bottom 0.25s ease; 
+  transition:border-bottom 0.25s ease;
+}
+
+.nav-about, .nav-team, .nav-work, .nav-blog {
+  border-bottom: 3px solid rgb(244,244,245);
+}
+
+.nav-about:hover {
+  color: black;
+  border-bottom: 3px solid rgb(135, 221, 140);
+}
+
+.nav-team:hover {
+  color: black;
+  border-bottom: 3px solid rgb(126, 173, 220);
+}
+
+.nav-work:hover {
+  color: black;
+  border-bottom: 3px solid rgb(175, 153, 214);
+}
+
+.nav-blog:hover {
+  color: black;
+  border-bottom: 3px solid rgb(227, 126, 148);
+}
+
+.nav-about-selected {
+  border-bottom: 3px solid rgb(135, 221, 140);;
+}
+
+.nav-team-selected {
+  border-bottom: 3px solid rgb(126, 173, 220);
+}
+
+.nav-work-selected {
+  border-bottom: 3px solid rgb(175, 153, 214);
+}
+
+.nav-blog-selected {
+  border-bottom: 3px solid rgb(227, 126, 148);
+}
+
+
+
+.nav-home {
+  font-family: 'Roboto slab';
+  font-weight: 200;
+  font-size: 14px;
+  color: rgb(160,160,160);
+}
+
+.divider {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.sub-header {
+  font-size: 54px;
+  font-family: 'Raleway';
+  font-weight: 100;
+}
+
+.row {
+  max-width: 950px;
+}
+
+.hero {
+  margin-top: 35px;
+  margin-left: 0px;
+  font-size: 115px;
+  font-family: 'Raleway';
+  font-weight: 100;
+}
+
+.blurb {
+  padding-top: 20px;
+  font-family: 'Roboto slab';
+  font-weight: 200;
+  font-size: 18px;
+}
+
+
+.article-title {
+  font-family: 'Raleway';
+  font-size: 54px;
+  font-weight: 100;
+}
+
+.article-title-list {
+  font-family: 'Raleway';
+  font-size: 36px;
+  font-weight: 200;
+  color: rgb(227, 126, 148);
+}
+
+.article-author {
+  font-family: 'Raleway';
+  font-weight: 200;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.article-date {
+  margin-top: 28px;
+  font-family: 'Raleway';
+  font-size: 18px;
+  font-weight: 200;
+  color: rgb(160,160,160);
+  margin-bottom: 10px;
+}
+
+.no-select {
+  cursor: default;
+  -moz-user-select: none; 
+  -webkit-user-select: none; 
+  -ms-user-select:none; 
+  user-select:none;
+  -o-user-select:none;
+}
+
+.about-lead {
+  font-family: 'Roboto slab';
+  position: relative;
+  font-weight: 200;
+  font-size: 28px;
+}
+
+.about-intro {
+  font-family: 'Roboto slab';
+  position: relative;
+  font-weight: 200;
+  font-size: 22px;
+}
+
+.about-callout {
+  color: rgb(125, 211, 130);
+  font-weight: 400;
+}
+
+.team-member {
+  display: inline-table;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 33%;
+  height: 350px;
+  position: relative;
+}
+
+.team-intro {
+  font-family: 'Roboto slab';
+  position: relative;
+  font-weight: 200;
+  font-size: 22px;
+}
+
+.team-blurb {
+  font-family: 'CooperHewitt-Light';
+  position: relative;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+.team-name {
+  font-family: 'CooperHewitt-Medium';
+  position: relative;
+}
+
+.team-twitter {
+  font-family: 'CooperHewitt-Light';
+  position: relative;
+  padding-left: 10px;
+}
+
+.team-position {
+  font-family: 'CooperHewitt-LightItalic';
+  position: relative;
+  font-size: 90%;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+.team-bio {
+  font-family: 'Roboto slab';
+  position: relative;
+  font-weight: 200;
+}
+
+.team-photo {
+  width: 200px;
+  height: 200px;
+  border: solid 6px rgb(126, 173, 220);
+  border-radius: 150px;
+}
+
+.work-item {
+  margin-bottom: 30px;
+}
+
+.work-category {
+  font-family: 'Roboto slab';
+  font-size: 32px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.work-photo {
+  width: 125px;
+  height: 125px;
+  border: solid 4px rgb(175, 153, 214);
+  border-radius: 150px;
+}
+
+.work-name {
+  font-family: 'CooperHewitt-LightItalic';
+  font-size: 22px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+.work-description {
+  font-family: 'Roboto slab';
+  position: relative;
+  font-weight: 200;
+  margin-bottom: 0px;
+}
+
+.work-link-group {
+  font-family: 'Roboto slab';
+  font-weight: 200;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.work-link {
+  margin-right: 20px;
+  border-bottom: 1px dotted rgb(100,100,100);
+  padding-bottom: 3px;
+}
+
+
+.blinking-cursor {
+  padding-left: 15px;
+  font-weight: 100;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+
+body {
+  background-color: rgb(244,244,245);
+  text-rendering: optimizeLegibility;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+
+p {
+  margin-bottom: 1.52em;
+}
+
+
+
+
+ol, ul {
+  margin: 0 1.4em 1.4em 4em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+blockquote {
+  margin: 1.2em 3em;
+  padding-left: 1em;
+  font-style: italic;
+}
+
+hr {
+  border: 0;
+  border-top: 1px dashed #d2d2d2;
+  height: 0;
+  margin: 1.6em 0;
+}
+
+
+/* page header */
+
+.header .author {
+  font-family: 'Merriweather', serif;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  text-rendering: auto;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.header .description {
+  font-size: 1.2em;
+  font-style: italic;
+  text-align: center;
+  margin-top: -0.3em;
+}
+
+body.article-detail > header h1 {
+  font-size: 2.5em;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: -0.2em;
+}
+
+body.article-detail > header {
+  margin-bottom: 3em;
+}
+
+/* page footer */
+
+#footer {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  position: absolute;
+  bottom: 40px;
+  left: 0px;
+  width: 100%;
+  display: block;
+}
+
+.round {
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  border: 1px solid rgb(215,215,215);
+  color: rgb(215,215,215);
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  display: inline-block;
+  background-color: rgb(215,215,215);
+}
+
+.round-inside {
+  color: inherit;
+  font-family: Roboto slab;
+  font-size: 26px;
+  font-weight: 300;
+
+}
+
+.round:hover {
+  cursor: pointer;
+  color: rgb(244,244,245);
+}
+
+.round-inside:hover {
+  cursor: pointer;
+  color: inherit;
+}
+
+
+/* article */
+
+.article {
+  margin: 3em 0 4em;
+    font-family: 'Roboto slab';
+    font-weight: 100;
+    line-height: 1.6em;
+}
+
+.article .content p {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.article .content h1 {
+  font-family: 'CooperHewitt-Light';
+  font-weight: 400;
+  font-size: 32px;
+  margin-top: 35px;
+}
+
+.article .content h2 {
+  font-family: 'CooperHewitt-Light';
+  font-weight: 400;
+  font-size: 26px;
+  margin-top: 35px;
+}
+
+.article .content h3 {
+  font-family: 'CooperHewitt-Light';
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 35px;
+}
+
+/* archive */
+
+.archive {
+  width: 32em;
+  margin: 5em auto 6em;
+  padding-left: 2em;
+}
+
+.archive h2 {
+  font-size: 2em;
+  margin: 0;
+  margin-left: 6.1em;
+  margin-bottom: 0.5em;
+  font-style: italic;
+}
+
+.archive a, .archive span{
+  display: block;
+  float: left;
+  margin-bottom: -1px;
+  text-decoration: none;
+}
+.archive li:not(:last-child) {
+	border-bottom: 1px solid #d2d2d2;
+	margin-bottom: -1px;
+}
+
+.archive a.last, .archive span.last {
+  border: 0;
+  margin-bottom: 0;
+}
+
+.archive a {
+  width: 21em;
+  text-indent: 1em;
+  white-space: nowrap;
+}
+
+.archive .year-label,
+.archive .month-label{
+  width: 4em;
+  font-family: 'Merriweather', serif;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  font-weight: 400;
+  text-rendering: auto;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.archive .month-label {
+  width: 7em;
+}
+
+.archive ul {
+  list-style: none;
+  margin: 0;
+}
+
+.archive ul li {
+  margin: 0;
+}
+
+/* code styling */
+
+
+pre {
+  font-size: 0.9em;
+  overflow: auto;
+  background: #fff;
+  border-radius: 0.5em;
+  margin-top: 18px;
+  margin-bottom: 22px;
+  padding: 1.75em;
+}
+
+code {
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 16px;
+  color: #000;
+}
+
+pre code {
+  display: block;
+  line-height: 1.15em;
+}
+
+p code {
+  padding: 0.3em 0.6em 0.4em;
+  border-radius: 0.5em;
+  position: relative;
+  background: white;
+  white-space: nowrap;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+/* syntax hl stuff */
+
+code.lang-markdown {
+  color: #424242;
+}
+
+code.lang-markdown .header,
+code.lang-markdown .strong {
+  font-weight: bold;
+}
+
+code.lang-markdown .emphasis {
+  font-style: italic;
+}
+
+code.lang-markdown .horizontal_rule,
+code.lang-markdown .link_label,
+code.lang-markdown .code,
+code.lang-markdown .header,
+code.lang-markdown .link_url {
+  color: #555;
+}
+
+code.lang-markdown .blockquote,
+code.lang-markdown .bullet {
+  color: #bbb;
+}
+
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+.tomorrow-comment, pre .comment, pre .title {
+  color: #8e908c;
+}
+
+.tomorrow-red, pre .variable, pre .attribute, pre .tag, pre .regexp, pre .ruby .constant, pre .xml .tag .title, pre .xml .pi, pre .xml .doctype, pre .html .doctype, pre .css .id, pre .css .class, pre .css .pseudo {
+  color: #c82829;
+}
+
+.tomorrow-orange, pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
+  color: #f5871f;
+}
+
+.tomorrow-yellow, pre .class, pre .ruby .class .title, pre .css .rules .attribute {
+  color: #eab700;
+}
+
+.tomorrow-green, pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
+  color: #718c00;
+}
+
+.tomorrow-aqua, pre .css .hexcolor {
+  color: #3e999f;
+}
+
+.tomorrow-blue, pre .function, pre .python .decorator, pre .python .title, pre .ruby .function .title, pre .ruby .title .keyword, pre .perl .sub, pre .javascript .title, pre .coffeescript .title {
+  color: #4271ae;
+}
+
+.tomorrow-purple, pre .keyword, pre .javascript .function {
+  color: #8959a8;
+}
+
+/* media queries */
+
+@media (min-width: 1600px) {
+  body { font-size: 26px; }
+}
+
+@media (max-width: 900px) {
+  body { font-size: 18px; }
+}
+
+@media (max-width: 690px) {
+
+  .nav-group {
+    text-align: left;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .team-member {
+    display: inline;
+  }
+
+  .hero {
+    font-size: 88px;
+    margin-bottom: 100px;
+  }
+
+  footer .nav {
+    margin: 1em 0;
+  }
+  footer .about {
+    padding: 0;
+    font-size: 0.9em;
+    padding-top: 1.6em;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    -ms-column-count: 1;
+    column-count: 1;
+  }
+  footer .about p {
+    margin-bottom: 1em;
+  }
+}
+
