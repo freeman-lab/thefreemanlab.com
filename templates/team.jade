@@ -25,7 +25,7 @@ block content
 			a(href="mailto:the.freeman.lab-at-gmail.com")
 				| contact us.
 
-		- var members = contents.team_members
+		- var members = _.sortBy(contents.team_members, function(d) {return d.metadata.order})
 		- var photos = contents.team.photos
 
 		each person in members	

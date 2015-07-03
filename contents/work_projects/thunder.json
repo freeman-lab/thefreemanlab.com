@@ -3,6 +3,8 @@
   "github": "http://github.com/thunder-project/thunder",
   "url": "http://thunder-project.org",
   "description": "A library for large-scale image and time series analysis in Python using Spark. We use it to analyze neural data sets, but it has a wide range of applications in image, time series, and video processing.",
+  "paper": "freeman-2014-nature-methods",
   "category": "code",
+  "order": 1,
   "id": "thunder"
 }

@@ -4,5 +4,6 @@
   "url": "http://lightning-viz.org",
   "description": "A data-visualization server providing API-based access to reproducible, web-based, interactive visualizations. It includes a core set of visualization types, but is built for extendability and customization.",
   "category": "code",
+  "order": 2,
   "id": "lightning"
 }

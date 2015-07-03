@@ -4,5 +4,6 @@
   "url": "http://datasets.codeneuro.org",
   "description": "Reproducible science requires making our datasets available in formats that are standardized and immediately accessible to computing environments in the cloud. Our web portal provides access to  neuroscience data sets hosted on Amazon S3.",
   "category": "open",
+  "order": 2,
   "id": "datasets"
 }

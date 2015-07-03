@@ -1,9 +1,10 @@
 {
   "name": "Jason Wittenbach",
-  "twitter": "jsonWittenbach",
+  "twitter": "jsonwittenbach",
   "position": "post-doc at Janelia",
   "bio1": "systems and circuits",
   "bio2": "data analysis and models",
   "bio3": "zebrafish and mouse",
-  "id": "jason-wittenbach"
+  "id": "jason-wittenbach",
+  "order": 2
 }

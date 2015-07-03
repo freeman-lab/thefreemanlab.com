@@ -3,6 +3,7 @@
   "url": "",
   "description": "Characterizing large-scale patterns of neural activity in the mouse brain during complex behavior. By analyzing the structure of population recordings — and targeted perturbations of neural activity — we hope to uncover the rules underlying neural representation and computation.",
   "category": "science",
-  "paper": "foo",
+  "paper": "peron-2015-neuron",
+  "order": 1,
   "id": "mouse"
 }

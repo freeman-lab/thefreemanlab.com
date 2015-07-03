@@ -1,9 +1,10 @@
 {
   "name": "Andrew Osheroff",
   "twitter": "ndrewosh",
-  "position": "developer at Janelia.",
+  "position": "developer at Janelia",
   "bio1": "batch and streaming",
   "bio2": "static and dynamic",
   "bio3": "nodes and notebooks",
-  "id": "andrew-osheroff"
+  "id": "andrew-osheroff",
+  "order": 3
 }

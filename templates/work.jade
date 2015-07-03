@@ -36,7 +36,7 @@ block content
 				p.work-category
 					| open science
 
-			- var projects = _.filter(contents.work_projects, function(d) {return d.metadata.category == cat})	
+			- var projects = _.sortBy(_.filter(contents.work_projects, function(d) {return d.metadata.category == cat}), function(d) {return d.metadata.order})	
 			each project in projects
 
 				- var image = _.find(photos, function(d) {return d.filepath.full.indexOf(project.metadata.id) > -1})
@@ -59,7 +59,7 @@ block content
 									a(href=url target="_blank").work-link
 										| project
 								if paper
-									a(href=paper target="_blank").work-link
+									a(href="/work/papers/" + paper +".pdf" target="_blank").work-link
 										| paper
 								if post
 									a(href=post target="_blank").work-link

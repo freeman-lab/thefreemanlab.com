@@ -1,9 +1,10 @@
 {
   "name": "Nicholas Sofroniew",
   "twitter": "neuro_nick",
-  "position": "post-doc at Janelia (with Svoboda Lab).",
+  "position": "post-doc at Janelia (with Svoboda Lab)",
   "bio1": "virtual reality and microscopy", 
   "bio2": "optogenetics and ephys", 
   "bio3": "analytics and mathematics",
-  "id": "nicholas-sofroniew"
+  "id": "nicholas-sofroniew",
+  "order": 4
 }

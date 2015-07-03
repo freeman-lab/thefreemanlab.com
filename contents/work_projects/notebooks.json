@@ -4,5 +4,6 @@
   "url": "http://notebooks.codeneuro.org",
   "description": "We want to minimize the barrier between data and data exploration. Using the tmpnb service and Docker containers, our notebooks provide interactive computing environments for tutorials, data set exploration, and analysis.",
   "category": "open",
+  "order": 1,
   "id": "notebooks"
 }
