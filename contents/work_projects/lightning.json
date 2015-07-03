@@ -1,8 +1,8 @@
 {
-  "name": "Lightning",
+  "name": "lightning",
   "github": "http://github.com/lightning-viz",
   "url": "http://lightning-viz.org",
-  "description": "Data visualization server.",
+  "description": "A data-visualization server providing API-based access to reproducible, web-based, interactive visualizations. It includes a core set of visualization types, but is built for extendability and customization.",
   "category": "code",
   "id": "lightning"
 }

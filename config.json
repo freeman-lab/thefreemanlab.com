@@ -6,12 +6,16 @@
     "description": "Ramblings of an immor(t)al demigod"
   },
   "plugins": [
-    "./plugins/test.coffee"
+    "./plugins/test.coffee",
+    "wintersmith-browserify"
   ],
-  "ignore": ["**/.DS_Store"],
+  "ignore": [
+    "**/.DS_Store"
+  ],
   "require": {
     "moment": "moment",
     "_": "underscore",
+    "d3": "d3",
     "typogr": "typogr"
   },
   "jade": {

@@ -1,6 +1,9 @@
 {
   "name": "Matt Conlen",
-  "twitter": "@mathisonian",
-  "bio": "Partner at New York Data Company. Frontend and backend, design and architecture, visualization and representation.",
+  "twitter": "mathisonian",
+  "position": "partner at New York Data Company",
+  "bio1": "frontend and backend", 
+  "bio2": "design and architecture", 
+  "bio3": "visualization and representation",
   "id": "matt-conlen"
 }

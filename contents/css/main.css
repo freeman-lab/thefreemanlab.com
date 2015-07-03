@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6, p, body, a, ul, ol, blockquote, pre {
 
 a {
   text-decoration: none;
-  color: rgb(150,150,150);
+  color: rgb(140,140,140);
   -webkit-transition:all 0.25s ease; 
   -moz-transition:all 0.25s ease; 
   -o-transition:all 0.25s ease; 
@@ -132,8 +132,9 @@ a:hover {
 }
 
 .hero {
-  margin-top: 30px;
-  font-size: 104px;
+  margin-top: 35px;
+  margin-left: 0px;
+  font-size: 115px;
   font-family: 'Raleway';
   font-weight: 100;
 }
@@ -175,12 +176,119 @@ a:hover {
   margin-bottom: 10px;
 }
 
+.no-select {
+  cursor: default;
+  -moz-user-select: none; 
+  -webkit-user-select: none; 
+  -ms-user-select:none; 
+  user-select:none;
+  -o-user-select:none;
+}
+
+.team-member {
+  display: inline-table;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 33%;
+  height: 350px;
+  position: relative;
+}
+
+.team-intro {
+  font-family: 'Roboto slab';
+  position: relative;
+  font-weight: 200;
+  font-size: 22px;
+}
+
+.team-blurb {
+  font-family: 'CooperHewitt-Light';
+  position: relative;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+.team-name {
+  font-family: 'CooperHewitt-Medium';
+  position: relative;
+}
+
+.team-twitter {
+  font-family: 'CooperHewitt-Light';
+  position: relative;
+  padding-left: 10px;
+}
+
+.team-position {
+  font-family: 'CooperHewitt-LightItalic';
+  position: relative;
+  font-size: 90%;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+.team-bio {
+  font-family: 'Roboto slab';
+  position: relative;
+  font-weight: 200;
+}
+
+.team-photo {
+  width: 200px;
+  height: 200px;
+  border: solid 6px rgb(126, 173, 220);
+  border-radius: 150px;
+}
+
+.work-item {
+  margin-bottom: 30px;
+}
+
+.work-category {
+  font-family: 'Roboto slab';
+  font-size: 32px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.work-photo {
+  width: 125px;
+  height: 125px;
+  border: solid 4px rgb(175, 153, 214);
+  border-radius: 150px;
+}
+
+.work-name {
+  font-family: 'CooperHewitt-LightItalic';
+  font-size: 22px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+.work-description {
+  font-family: 'Roboto slab';
+  position: relative;
+  font-weight: 200;
+  margin-bottom: 0px;
+}
+
+.work-link-group {
+  font-family: 'Roboto slab';
+  font-weight: 200;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.work-link {
+  margin-right: 20px;
+  border-bottom: 1px dotted rgb(100,100,100);
+  padding-bottom: 3px;
+}
 
 
 .blinking-cursor {
   padding-left: 15px;
   font-weight: 100;
-  font-size: 92px;
   color: #2E3D48;
   -webkit-animation: 1s blink step-end infinite;
   -moz-animation: 1s blink step-end infinite;
@@ -235,8 +343,6 @@ a:hover {
 }
 
 
-
-
 body {
   background-color: rgb(244,244,245);
   text-rendering: optimizeLegibility;
@@ -274,13 +380,6 @@ hr {
   border-top: 1px dashed #d2d2d2;
   height: 0;
   margin: 1.6em 0;
-}
-
-.team-photo {
-  width: 200px;
-  height: 200px;
-  border: solid 6px rgb(126, 173, 220);
-  border-radius: 150px;
 }
 
 

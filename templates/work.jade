@@ -16,38 +16,59 @@ block nav
 block label
 	h1.sub-header what we do
 
-	- var photos = contents.work_photos
-
-	- var categories = ['code', 'science', 'open']
-	each cat in categories
-
-		if cat == 'science'
-			p
-				| Scientific investigation
-
-		if cat == 'code'
-			p
-				| Coding efforts
-
-		if cat == 'open'
-			p
-				| Open science
-
-		hr
-
-		- var projects = _.filter(contents.work_projects, function(d) {return d.metadata.category == cat})	
-
-		each project in projects
-
-			- var image = _.find(photos, function(d) {return d.filepath.full.indexOf(project.metadata.id) > -1})
-
-			p= project.metadata.name
-
-			if image
-				p= image.filepath.full
-
 
 block content
-	.row
-		.column-7.suffix-5.blurb
-			p This is what we do this is what we do
+	.row(style='margin-top: 40px')
+		- var photos = contents.work.photos
+		- var categories = ['code', 'science', 'open']
+
+		each cat in categories
+
+			if cat == 'science'
+				p.work-category
+					| biology
+
+			if cat == 'code'
+				p.work-category
+					| code
+
+			if cat == 'open'
+				p.work-category
+					| open science
+
+			- var projects = _.filter(contents.work_projects, function(d) {return d.metadata.category == cat})	
+			each project in projects
+
+				- var image = _.find(photos, function(d) {return d.filepath.full.indexOf(project.metadata.id) > -1})
+				- var github = project.metadata.github
+				- var url = project.metadata.url
+				- var paper = project.metadata.paper
+				- var post = project.metadata.post
+
+				div
+					- console.log(image)
+				div
+
+				div.work-item
+					.row
+						.column-8
+							p.work-name= project.metadata.name
+							p.work-description= project.metadata.description
+
+							p.work-link-group
+								if github
+									a(href=github target="_blank").work-link
+										| repo
+								if url
+									a(href=url target="_blank").work-link
+										| project
+								if paper
+									a(href=paper target="_blank").work-link
+										| paper
+								if post
+									a(href=post target="_blank").work-link
+										| post
+
+						if image
+							.column-3.prefix-1
+								img(src='/' + image.filepath.relative).work-photo

@@ -1,7 +1,8 @@
 {
-  "name": "Brain mapping in zebrafish",
+  "name": "brain mapping in zebrafish",
   "url": "",
-  "description": "Whole-brain characterization of sensory-motor computation.",
+  "description": "Whole-brain characterization of sensory-motor computation using light-sheet imaging. By analyzing patterns of activity, we hope to uncover how different circuits and brain areas coordinate sensory processing and behavior.",
   "category": "science",
+  "paper": "foo",
   "id": "zebrafish"
 }

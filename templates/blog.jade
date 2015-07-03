@@ -4,7 +4,7 @@ block home
   a(href='/').nav-home &lsaquo;&lsaquo;&nbsp; home
 
 block nav
-  div.nav-group
+  div.nav-group.no-select
     a(href='/about/').nav.nav-about about
     span.divider /  
     a(href='/team/').nav.nav-team team
@@ -17,22 +17,22 @@ block label
   h1.sub-header blog
 
 block content
+  .row
+    .column-10
 
-  .column-10
-
-    include author
-    - var articles = env.helpers.getArticles(contents);
-    each article in articles
-      
-      article.article
-        header
-          p.article-date
-            span= moment.utc(article.date).format('MMMM DD, YYYY')
-          h2
-            a(href=article.url).article-title-list= article.title
-        section.content
-          if article.intro.length > 0
-            != typogr(article.intro).typogrify()
-          if article.hasMore
-            p.more
-              a(href=article.url) more &rsaquo;&rsaquo;
+      include author
+      - var articles = env.helpers.getArticles(contents);
+      each article in articles
+        
+        article.article
+          header
+            p.article-date
+              span= moment.utc(article.date).format('MMMM DD, YYYY')
+            h2
+              a(href=article.url).article-title-list= article.title
+          section.content
+            if article.intro.length > 0
+              != typogr(article.intro).typogrify()
+            if article.hasMore
+              p.more
+                a(href=article.url) more &rsaquo;&rsaquo;

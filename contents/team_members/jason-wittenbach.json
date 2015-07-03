@@ -1,6 +1,9 @@
 {
   "name": "Jason Wittenbach",
-  "twitter": "@jwittenbach",
-  "bio": "Post-doc at Janelia. Systems and circuits, data analysis and models, zebrafish and mouse.",
+  "twitter": "jsonWittenbach",
+  "position": "post-doc at Janelia",
+  "bio1": "systems and circuits",
+  "bio2": "data analysis and models",
+  "bio3": "zebrafish and mouse",
   "id": "jason-wittenbach"
 }

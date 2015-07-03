@@ -2,10 +2,10 @@ extends layout
 
 
 block home
-	a(href='/', style='opacity:0.0; pointer-events: none').nav-home &lsaquo;&lsaquo;&nbsp; home
+	a(href='/', style='opacity:0.0; pointer-events: none').nav-home.no-select &lsaquo;&lsaquo;&nbsp; home
 
 block nav
-	div.nav-group
+	div.nav-group.no-select
 		a(href='/about/').nav.nav-about about
 		span.divider /  
 		a(href='/team/').nav.nav-team team
@@ -15,9 +15,11 @@ block nav
 		a(href='/blog/').nav.nav-blog blog
 
 block content
-	.column-4.hero the freeman lab
-		span.blinking-cursor |
+	.row(style='max-width:1100px; margin-top:20px')
+		.column-4.no-select
+			div#viz
+		.column-4.suffix-4.hero.no-select the freeman lab
+			span.blinking-cursor |
 
-	script.
-		console.log(d3)
+	script(src='/main.js')
 

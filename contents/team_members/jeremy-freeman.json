@@ -1,6 +1,9 @@
 {
   "name": "Jeremy Freeman",
-  "twitter": "@thefreemanlab",
-  "bio": "Group Leader at Janelia. Neuroscience and computation, analytics and visualization, open source and open science.",
+  "twitter": "thefreemanlab",
+  "position": "group leader at Janelia",
+  "bio1": "neuroscience and computation", 
+  "bio2": "analytics and visualization",
+  "bio3": "open source and open science",
   "id": "jeremy-freeman"
 }

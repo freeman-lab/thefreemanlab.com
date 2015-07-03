@@ -1,6 +1,9 @@
 {
   "name": "Nicholas Sofroniew",
-  "twitter": "@neuro_nick",
-  "bio": "Post-doc at Janelia (with Svoboda Lab). Tactile virtual reality and 2-photon microscopy, optogenetics and ephys, large scale data analysis and mathematics.",
+  "twitter": "neuro_nick",
+  "position": "post-doc at Janelia (with Svoboda Lab).",
+  "bio1": "virtual reality and microscopy", 
+  "bio2": "optogenetics and ephys", 
+  "bio3": "analytics and mathematics",
   "id": "nicholas-sofroniew"
 }

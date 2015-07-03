@@ -1,8 +1,8 @@
 {
-  "name": "Neurofinder",
+  "name": "neurofinder",
   "github": "http://github.com/codeneuro/neurofinder",
   "url": "http://codeneuro.org/neurofinder",
-  "description": "Interactive notebooks for interactively exploring data and analyses.",
+  "description": "To avoid reinventing the wheel in science, we need to all get on the same page. We have chosen one data analysis problem — source extraction from calcium imaging data — and built a platform to compare and vet algorithms on standardized data sets in reprodicble environments.",
   "category": "open",
   "id": "neurofinder"
 }

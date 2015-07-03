@@ -1,6 +1,9 @@
 {
   "name": "Clara Fannjiang",
   "twitter": "",
-  "bio": "Undergraduate at Stanford. ",
+  "position": "undergraduate at Stanford",
+  "bio1": "batch and streaming",
+  "bio2": "static and dynamic",
+  "bio3": "nodes and notebooks",
   "id": "clara-fannjiang"
 }

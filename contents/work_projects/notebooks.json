@@ -1,8 +1,8 @@
 {
-  "name": "Notebooks",
-  "github": "http://github.com/lightning-viz",
+  "name": "notebooks",
+  "github": "http://github.com/codeneuro/notebooks",
   "url": "http://notebooks.codeneuro.org",
-  "description": "Interactive notebooks for interactively exploring data and analyses.",
+  "description": "We want to minimize the barrier between data and data exploration. Using the tmpnb service and Docker containers, our notebooks provide interactive computing environments for tutorials, data set exploration, and analysis.",
   "category": "open",
   "id": "notebooks"
 }

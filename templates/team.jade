@@ -16,23 +16,39 @@ block nav
 block label
 	h1.sub-header meet the team
 
-	- var members = contents.team_members
-	- var photos = contents.team.photos
-
-	div
-		- console.log(photos)
-	div
-
-	each person in members	
-
-		- var image = _.find(photos, function(d) {return d.filepath.full.indexOf(person.metadata.id) > -1})
-		
-		p= person.metadata.name
-
-		if image
-			img(src='/' + image.filepath.relative).team-photo
-
 block content
-	.row
-		.column-7.suffix-5.blurb
-			p This is our team this is our team this is our team
+	.row(style='margin-top: 40px').no-select
+		p.team-intro
+			| Here are some of our core members and collaborators, and a little bit about them. We're a diverse group — scientists and engieneers, coders and designers, biologists and mathematicians.
+			| Want to join us? There are many ways to get involved, just 
+
+			a(href="mailto:the.freeman.lab-at-gmail.com")
+				| contact us.
+
+		- var members = contents.team_members
+		- var photos = contents.team.photos
+
+		each person in members	
+
+			- var image = _.find(photos, function(d) {return d.filepath.full.indexOf(person.metadata.id) > -1})
+			
+			if image
+				div.team-member
+					img(src='/' + image.filepath.relative).team-photo
+					p.team-blurb
+						span.team-name= person.metadata.name
+						a(href="http://twitter.com/#{person.metadata.twitter}" target="_blank").team-twitter
+							| @#{person.metadata.twitter}
+						p.team-position= person.metadata.position 
+						p.team-bio
+							span= person.metadata.bio1
+							br
+							span= person.metadata.bio2
+							br
+							span= person.metadata.bio3
+
+		br
+		br
+		br
+					
+		
