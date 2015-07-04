@@ -210,7 +210,7 @@ a:hover {
   display: inline-table;
   margin-top: 30px;
   margin-bottom: 20px;
-  width: 33%;
+  width: 32%;
   height: 350px;
   position: relative;
 }
@@ -227,6 +227,7 @@ a:hover {
   position: relative;
   padding-top: 20px;
   margin-bottom: 10px;
+  font-size:16px;
 }
 
 .team-name {
@@ -243,7 +244,7 @@ a:hover {
 .team-position {
   font-family: 'CooperHewitt-LightItalic';
   position: relative;
-  font-size: 90%;
+  font-size: 15px;
   font-weight: 200;
   margin-bottom: 10px;
 }
@@ -292,6 +293,7 @@ a:hover {
   position: relative;
   font-weight: 200;
   margin-bottom: 0px;
+  font-size: 16px;
 }
 
 .work-link-group {
@@ -299,6 +301,7 @@ a:hover {
   font-weight: 200;
   margin-top: 10px;
   margin-bottom: 20px;
+  font-size: 16px;
 }
 
 .work-link {
@@ -483,9 +486,8 @@ body.article-detail > header {
 
 .article {
   margin: 3em 0 4em;
-    font-family: 'Roboto slab';
-    font-weight: 100;
-    line-height: 1.6em;
+  font-family: 'Roboto slab';
+  font-weight: 100;
 }
 
 .article .content p {
@@ -538,8 +540,8 @@ body.article-detail > header {
   text-decoration: none;
 }
 .archive li:not(:last-child) {
-	border-bottom: 1px solid #d2d2d2;
-	margin-bottom: -1px;
+  border-bottom: 1px solid #d2d2d2;
+  margin-bottom: -1px;
 }
 
 .archive a.last, .archive span.last {
@@ -679,11 +681,9 @@ code.lang-markdown .bullet {
 /* media queries */
 
 @media (min-width: 1600px) {
-  body { font-size: 26px; }
-}
-
-@media (max-width: 900px) {
-  body { font-size: 18px; }
+  .row {
+    max-width: 1200px;
+  }
 }
 
 @media (max-width: 690px) {
