@@ -14,11 +14,11 @@
       <pubDate>Fri, 03 Jul 2015 12:00:00 -0400</pubDate>
       <guid isPermaLink="true">http://localhost:8080/articles/welcome/</guid>
       <author></author>
-      <description>&lt;p&gt;Welcome to the blog&lt;/p&gt;
+      <description>&lt;p&gt;Welcome to the new Freeman lab site! This is the first of many posts about the science we do and the technology we develop. For now, I’ll just say a little bit about this site itself.&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;lang-python&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt;:&lt;/span&gt;
-    &lt;span class=&quot;keyword&quot;&gt;print&lt;/span&gt; foo
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I built it using &lt;a href=&quot;http://wintersmith.io/&quot;&gt;wintersmith&lt;/a&gt;, a fantastic static site generator built on &lt;a href=&quot;https://nodejs.org/&quot;&gt;node.js&lt;/a&gt;. I normally build sites from scratch, but we hope to use this blog to host a variety of content  from our group members and our collaborations, so I wanted something to manage blog-style content written in markdown, without imposing too much structure, and while maintaining tons of flexibility. Wintersmith is just that, and has been a lot of fun to use.&lt;/p&gt;
+&lt;p&gt;The design itself is from scratch, but has a few sources of inspiration. The visualization on the front page uses &lt;a href=&quot;http://localhost:8080/articles/welcome/&quot;&gt;D3&lt;/a&gt; and was a little exercise I gave myself to extend Mike Bostock’s excellent &lt;a href=&quot;http://bost.ocks.org/mike/path/&quot;&gt;path transition&lt;/a&gt; example to multiple lines. The primary color scheme is a modified version of the one we use in &lt;a href=&quot;http://bost.ocks.org/mike/path/&quot;&gt;lightning&lt;/a&gt;. The fonts used are &lt;a href=&quot;https://www.theleagueofmoveabletype.com/raleway&quot;&gt;Raleway&lt;/a&gt;, &lt;a href=&quot;http://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/&quot;&gt;Cooperhewitt&lt;/a&gt;, and &lt;a href=&quot;https://www.google.com/fonts/specimen/Roboto+Slab&quot;&gt;Roboto slab&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I owe &lt;a href=&quot;https://twitter.com/mathisonian&quot;&gt;Matt Conlen&lt;/a&gt; a thank you because he taught me pretty much everything I know about node.js, and thanks to the rest of my group for critiquing the design. Sorry Andrew and Davis, the lines are staying black. Nick, you win.&lt;/p&gt;
 </description>
     </item>
   </channel>
