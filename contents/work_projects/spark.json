@@ -2,7 +2,7 @@
   "name": "spark",
   "github": "https://github.com/apache/spark",
   "url": "http://spark-project.org",
-  "description": "A powerful platform for large-scale analytics. It's at the core of many of our analytic efforts, and we actively contribute to the project, including algorithms for streaming machine learning, and enhancements to its Python API.",
+  "description": "A powerful open-source platform for large-scale analytics. It's at the core of many of our analytic efforts, and we actively contribute to the project, including algorithms for streaming machine learning, and enhancements to its Python API.",
   "post": "https://databricks.com/blog/2015/01/28/introducing-streaming-k-means-in-spark-1-2.html",
   "category": "code",
   "order": 3,

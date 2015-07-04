@@ -1,7 +1,7 @@
 {
   "name": "brain mapping in zebrafish",
   "url": "",
-  "description": "Whole-brain characterization of sensory-motor computation using light-sheet imaging. By analyzing patterns of activity, we hope to uncover how different circuits and brain areas coordinate sensory processing and behavior.",
+  "description": "Whole-brain characterization of sensory-motor computation in zebrafish using light-sheet imaging. We hope to uncover how different circuits and brain areas coordinate sensory processing and behavior.",
   "category": "science",
   "paper": "vladimirov-2014-nature-methods",
   "order": 2,

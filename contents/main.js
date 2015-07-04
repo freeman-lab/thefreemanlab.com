@@ -51,64 +51,6 @@ d3.csv('/data/data.csv', function(d) {
 	    .attr("width", width)
 	    .attr("height", height)
 
-
-	// var timeseries = svg.selectAll(".timeseries")
- //      .data(ts)
- //    .enter().append("g")
- //      .attr("clip-path", "url(#clip)")
- //      .attr("class", "timeseries");
-
- //  	timeseries.append("path")
- //      .attr("class", "line")
- //      .attr("d", function(d) { return line(d.values); })
- //      .attr("fill", "none")
-	//   .attr("stroke", "black")
-	//   .attr("stroke-width", 2.5)
-
-	console.log(ts[0].values)
-
-	// var path = []
-	// var subpath = svg.append("g")
-	//     .attr("clip-path", "url(#clip)")
-	//   .append("path")
-	//     .datum(ts[0].values)
-	//     .attr("class", "line")
-	//     .attr("fill", "none")
-	//     .attr("stroke", "black")
-	//     .attr("stroke-width", 2.5)
-	//     .attr("d", line);
-	// path.push(subpath)
-	// var subpath = svg.append("g")
-	//     .attr("clip-path", "url(#clip)")
-	//   .append("path")
-	//     .datum(ts[1].values)
-	//     .attr("class", "line")
-	//     .attr("fill", "none")
-	//     .attr("stroke", "black")
-	//     .attr("stroke-width", 2.5)
-	//     .attr("d", line);
-	// path.push(subpath)
-	// var subpath = svg.append("g")
-	//     .attr("clip-path", "url(#clip)")
-	//   .append("path")
-	//     .datum(ts[2].values)
-	//     .attr("class", "line")
-	//     .attr("fill", "none")
-	//     .attr("stroke", "black")
-	//     .attr("stroke-width", 2.5)
-	//     .attr("d", line);
-	// path.push(subpath)
-	// var subpath = svg.append("g")
-	//     .attr("clip-path", "url(#clip)")
-	//   .append("path")
-	//     .datum(ts[3].values)
-	//     .attr("class", "line")
-	//     .attr("fill", "none")
-	//     .attr("stroke", "black")
-	//     .attr("stroke-width", 2.5)
-	//     .attr("d", line);
-	// path.push(subpath)
-
 	var path = []
 	ts.forEach(function(d, i) {
 		var subpath = svg.append("g")
@@ -123,25 +65,6 @@ d3.csv('/data/data.csv', function(d) {
 		path.push(subpath)
 	})
 	
-
-	console.log(ts.length)
-
-
-	// ts.forEach(function(d, i) {
-	// 	var subpath = svg.append("g")
-	// 	    .attr("clip-path", "url(#clip)")
-	// 	  .append("path")
-	// 	    .datum(d.values)
-	// 	    .attr("class", "line")
-	// 	    .attr("fill", "none")
-	// 	    .attr("stroke", "black")
-	// 	    .attr("stroke-width", 2.5)
-	// 	    .attr("d", line);
-	// 	path.push(subpath)
-	// })
-
-	console.log(path)
-
 	var counter = n;
 
 	tick();

@@ -189,7 +189,8 @@ a:hover {
   font-family: 'Roboto slab';
   position: relative;
   font-weight: 200;
-  font-size: 28px;
+  font-size: 36px;
+  margin-bottom: 40px;
 }
 
 .about-intro {
@@ -197,6 +198,7 @@ a:hover {
   position: relative;
   font-weight: 200;
   font-size: 22px;
+  max-width: 850px;
 }
 
 .about-callout {
@@ -250,6 +252,7 @@ a:hover {
   font-family: 'Roboto slab';
   position: relative;
   font-weight: 200;
+  font-size: 15px;
 }
 
 .team-photo {
@@ -687,7 +690,7 @@ code.lang-markdown .bullet {
 
   .nav-group {
     text-align: left;
-    font-size: 22px;
+    font-size: 16px;
     margin-bottom: 20px;
   }
 
@@ -696,7 +699,7 @@ code.lang-markdown .bullet {
   }
 
   .hero {
-    font-size: 88px;
+    font-size: 78px;
     margin-bottom: 100px;
   }
 
