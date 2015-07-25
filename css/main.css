@@ -1,15 +1,21 @@
 @font-face {
   font-family: "CooperHewitt-Medium";
-  src: url("fonts/CooperHewitt-Medium.woff");}
+  src: url("fonts/CooperHewitt-Medium.woff");
+}
 
 @font-face {
   font-family: "CooperHewitt-Light";
-  src: url("fonts/CooperHewitt-Light.woff");}
+  src: url("fonts/CooperHewitt-Light.woff");
+}
 
 @font-face {
   font-family: "CooperHewitt-LightItalic";
-  src: url("fonts/CooperHewitt-LightItalic.woff");}
+  src: url("fonts/CooperHewitt-LightItalic.woff");
+}
 
+body {
+  background-color: ;
+}
 
 h1, h2, h3, h4, h5, h6, p, body, a, ul, ol, blockquote, pre {
   margin: 0; padding: 0; border: 0;
@@ -68,7 +74,7 @@ a:hover {
 }
 
 .nav-about, .nav-team, .nav-work, .nav-blog {
-  border-bottom: 3px solid rgb(244,244,245);
+  border-bottom: 3px solid rgb(230,230,230);
 }
 
 .nav-about:hover {
@@ -369,7 +375,7 @@ a:hover {
 
 
 body {
-  background-color: rgb(244,244,245);
+  background-color: rgb(254,254,254);
   text-rendering: optimizeLegibility;
   height: 100%;
 }
@@ -490,10 +496,17 @@ body.article-detail > header {
   font-weight: 100;
 }
 
-.article .content p {
+.article .content {
+  margin-top: 5px;
+  font-size: 18px;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+.article .content.preview {
   margin-top: 5px;
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .article .content h1 {
