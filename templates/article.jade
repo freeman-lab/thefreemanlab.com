@@ -20,7 +20,7 @@ block content
         mixin author(page.metadata.author)
       
       article.article
-        section.content!= typogr(page.html).typogrify()
+        section.content.full!= typogr(page.html).typogrify()
 
 
 
