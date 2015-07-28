@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6, p, body, a, ul, ol, blockquote, pre {
 
 a {
   text-decoration: none;
-  color: rgb(140,140,140);
+  color: rgb(225, 65, 107);
   -webkit-transition:all 0.25s ease; 
   -moz-transition:all 0.25s ease; 
   -o-transition:all 0.25s ease; 
@@ -32,7 +32,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: rgb(100,100,100);
+  color: rgb(160, 45, 70);
 }
 
 #wrapper {
@@ -118,8 +118,12 @@ a:hover {
 .nav-home {
   font-family: 'Roboto slab';
   font-weight: 200;
-  font-size: 14px;
+  font-size: 15px;
   color: rgb(160,160,160);
+}
+
+.nav-home:hover {
+  color: rgb(100,100,100);
 }
 
 .divider {
@@ -171,6 +175,15 @@ a:hover {
   font-weight: 200;
   font-size: 24px;
   font-style: italic;
+}
+
+.article-author-name {
+  color: rgb(160,160,160);
+  border-bottom: 1px dotted rgb(100,100,100);
+}
+
+.article-author-name:hover {
+  color: rgb(100,100,100);
 }
 
 .article-date {
@@ -228,6 +241,14 @@ a:hover {
   font-size: 22px;
 }
 
+.team-intro a {
+  color: rgb(100, 167, 233)
+}
+
+.team-intro a:hover {
+  color: rgb(80,120,150);
+}
+
 .team-blurb {
   font-family: 'CooperHewitt-Light';
   position: relative;
@@ -244,7 +265,14 @@ a:hover {
 .team-twitter {
   font-family: 'CooperHewitt-Light';
   position: relative;
-  padding-left: 10px;
+  margin-left: 10px;
+  padding-bottom: 3px;
+  margin-top: -3px;
+  color: rgb(140,140,140);
+}
+
+.team-twitter:hover {
+  color: rgb(80,80,80);
 }
 
 .team-position {
@@ -281,9 +309,8 @@ a:hover {
 }
 
 .work-photo {
-  width: 125px;
-  height: 125px;
-  border: solid 4px rgb(175, 153, 214);
+  width: 175px;
+  height: 175px;
   border-radius: 150px;
 }
 
@@ -299,7 +326,7 @@ a:hover {
   position: relative;
   font-weight: 200;
   margin-bottom: 0px;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .work-link-group {
@@ -314,6 +341,11 @@ a:hover {
   margin-right: 20px;
   border-bottom: 1px dotted rgb(100,100,100);
   padding-bottom: 3px;
+  color: rgb(140,140,140);
+}
+
+.work-link:hover {
+  color: rgb(80,80,80);
 }
 
 
@@ -505,8 +537,16 @@ body.article-detail > header {
 
 .article .content.preview {
   margin-top: 5px;
-  font-size: 16px;
-  font-weight: 300;
+  font-size: 17px;
+  font-weight: 200;
+}
+
+.more-link {
+  color: rgb(160,160,160);
+}
+
+.more-link:hover {
+  color: rgb(100,100,100);
 }
 
 .article .content h1 {
