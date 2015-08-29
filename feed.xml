@@ -5,13 +5,13 @@
     <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://localhost:8080</link>
     <description>Ramblings of an immor(t)al demigod</description>
-    <pubDate>Fri, 03 Jul 2015 12:00:00 -0400</pubDate>
+    <pubDate>Fri, 03 Jul 2015 12:00:00 -0700</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
       <title>welcome</title>
       <link>http://localhost:8080/articles/welcome/</link>
-      <pubDate>Fri, 03 Jul 2015 12:00:00 -0400</pubDate>
+      <pubDate>Fri, 03 Jul 2015 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">http://localhost:8080/articles/welcome/</guid>
       <author></author>
       <description>&lt;p&gt;Welcome to the new Freeman lab site! This is the first of many posts about the science we do and the technology we develop. For now, I’ll just say a little bit about this site itself.&lt;/p&gt;
